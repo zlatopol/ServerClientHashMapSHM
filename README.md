@@ -7,7 +7,8 @@ or
 ```
 make build
 ```
-<img width="643" alt="image" src="https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/ca7252e3-6fca-409b-9c59-bc80279f63c6">
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/3131b583-756e-46b1-918d-41f36b6949ac)
+
 
 # Task Description
 * Server program:
@@ -36,26 +37,29 @@ buffer (POSIX shm)
 # Makefile
 `make build`
 
-<img width="735" alt="image" src="https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/c79cdb26-4cd3-4fb2-8a22-5f58b8005a89">
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/37abfedd-c2c7-4fa3-bb52-0bf8835bcf6b)
+
 
 `make server BUCKETS_CNT=<bucket cnt>`
 
-<img width="598" alt="image" src="https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/986dc458-8dc7-4452-98e1-d1534f14c53e">
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/1baa8f06-ee30-4e93-ba68-6e0a0878b534)
+
 
 `make client`
 
-<img width="582" alt="image" src="https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/5168eaaf-fb0a-49b6-95c2-a47faa26f96a">
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/20502c21-b921-4bdf-a43a-332df088113c)
+
 
 # Server
 `./server <number of buckets in hash table>`
 
-<img width="638" alt="image" src="https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/70487966-b9cd-4b19-800c-bb8cc0474def">
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/1a12b611-38ba-4b80-921d-16e0f1d74725)
 
 
 # Client
 `./client`
 
-<img width="680" alt="image" src="https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/f25d6a37-48f7-4a24-a632-57227f355036">
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/31c91be3-1d13-4b06-ae67-7afc7840f602)
 
 
 # Performance Test
@@ -66,10 +70,10 @@ Output: `(id_of_client): (number_of_ops | time) (reads|inserts|deletes|ms)`
 -1: overall time
 
 ## Results:
-![telegram-cloud-photo-size-2-5440435529565984512-y](https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/0471a283-4213-4469-becb-b9fcd5657af7)
-![telegram-cloud-photo-size-2-5440435529565984513-y](https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/ffe682b0-b71a-413e-9e44-3133c2788ca3)
-![telegram-cloud-photo-size-2-5440435529565984514-y](https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/cd1d7a1e-6e85-4985-ae1b-0fda2c3deb71)
-![telegram-cloud-photo-size-2-5440435529565984515-y](https://github.com/s3ponia/InMemoryAsyncHashMapSHM/assets/29208820/acdb9943-17a3-4c15-b010-eea06f4f3296)
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/ff2c97c6-546e-450f-9c09-20ba5ba56a45)
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/d56bcf7d-d4b1-455f-9c46-382893412495)
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/37b3681c-b0eb-4859-95f5-b293a704438e)
+![image](https://github.com/zlatopol/ServerClientHashMapSHM/assets/70473289/9a842a46-8d7d-4e2f-81d8-1f60429b6c13)
 
 
 
